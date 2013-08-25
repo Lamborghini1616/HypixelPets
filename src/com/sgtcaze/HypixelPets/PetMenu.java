@@ -160,7 +160,7 @@ public class PetMenu extends HypixelPets {
 		ItemMeta ChickenMeta = Chicken.getItemMeta();
 		ArrayList<String> chicken = new ArrayList<String>();
 		ChickenMeta.setDisplayName(ChatColor.RED + "Chicken Pet");
-		//chicken.add(ChatColor.GRAY + "Regular Pet);
+		//chicken.add(ChatColor.GRAY + "Regular Pet");
 		ChickenMeta.setLore(chicken);
 		Chicken.setItemMeta(ChickenMeta);
 		}
@@ -249,7 +249,7 @@ public class PetMenu extends HypixelPets {
 		ItemMeta YellowSheepMeta = YellowSheep.getItemMeta();
 		ArrayList<String> yellowsheep = new ArrayList<String>();
 		YellowSheepMeta.setDisplayName(ChatColor.RED + "Yellow Sheep Pet");
-		//yellosheep.add(ChatColor.GRAY + "Regular Pet");
+		//yellowsheep.add(ChatColor.GRAY + "Regular Pet");
 		YellowSheepMeta.setLore(yellowsheep);
 		YellowSheep.setItemMeta(YellowSheepMeta);
 		}
@@ -321,7 +321,7 @@ public class PetMenu extends HypixelPets {
 		ItemMeta GreenSheepMeta = GreenSheep.getItemMeta();
 		ArrayList<String> greensheep = new ArrayList<String>();
 		GreenSheepMeta.setDisplayName(ChatColor.RED + "Green Sheep Pet");
-		//yellosheep.add(ChatColor.GRAY + "Regular Pet");
+		//greensheep.add(ChatColor.GRAY + "Regular Pet");
 		GreenSheepMeta.setLore(greensheep);
 		GreenSheep.setItemMeta(GreenSheepMeta);
 		}
